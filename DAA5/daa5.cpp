@@ -1,7 +1,8 @@
-#include <iostream>
-#include <vector>
-#include <cstdlib>   // for rand(), srand()
-#include <ctime>     // for time()
+// #include <iostream>
+// #include <vector>
+// #include <cstdlib>   // for rand(), srand()
+// #include <ctime>     // for time()
+#include<bits/stdc++.h>
 using namespace std;
 
 // ==========================
@@ -75,7 +76,7 @@ void printArray(const vector<int>& arr) {
 // MAIN FUNCTION
 // ==========================
 int main() {
-    srand(time(0)); // seed for random pivot
+    // srand(time(0)); // seed for random pivot
 
     int n, choice;
     cout << "-----------------------------------------------\n";

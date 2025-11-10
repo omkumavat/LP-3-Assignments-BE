@@ -10,8 +10,7 @@ def f(x):
 
 def df(x):
     return 2 * (x + 3)
-
-# Initialize parameters
+ 
 x = 2            # starting point
 learning_rate = 0.1
 precision = 0.000001
