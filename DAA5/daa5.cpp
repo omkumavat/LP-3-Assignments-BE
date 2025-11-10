@@ -14,7 +14,7 @@ void quickSortDeterministic(vector<int>& arr, int low, int high);
 void quickSortRandomized(vector<int>& arr, int low, int high);
 void printArray(const vector<int>& arr);
 
-// ==========================
+// ========================== 
 // DETERMINISTIC PARTITION
 // ==========================
 int partitionDeterministic(vector<int>& arr, int low, int high) {

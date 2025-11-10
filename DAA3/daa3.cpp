@@ -9,7 +9,7 @@ struct Item {
 };
 
 // ======================================================
-// Recursive Dynamic Programming (Top-Down with Memoization)
+//  Recursive Dynamic Programming (Top-Down with Memoization)
 // ======================================================
 
 int knapsackRecDP(int i, int W, vector<Item>& items, vector<vector<int>>& memo) {
